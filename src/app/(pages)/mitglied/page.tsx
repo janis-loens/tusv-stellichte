@@ -23,7 +23,7 @@ export default function MitgliedPage() {
               Online-Formular ausfüllen
             </Link>
             <a
-              href="/templates/eintrittserklaerung.pdf"
+              href="https://nylcloqoblzfcdsakeuk.supabase.co/storage/v1/object/public/templates/Eintrittserklaerung.pdf"
               className="btn ghost"
               download
             >
