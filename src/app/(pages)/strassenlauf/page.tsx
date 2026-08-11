@@ -58,7 +58,7 @@ const strassenlaufDisziplinen = [
   ["7. Laufen: Erwachsene", "Start: 11:00 Uhr", "10 km"],
 ];
 
-const strassenlaufEventSponsors = getEventSponsors("strassenlauf-2025");
+const strassenlaufEventSponsors = getEventSponsors("strassenlauf-2026");
 
 export default function StrassenlaufPage() {
   return (
@@ -186,11 +186,11 @@ export default function StrassenlaufPage() {
             </Link>
           </div>
 
-          {/*           <div className="section-head" style={{ marginTop: "48px" }}>
+          <div className="section-head" style={{ marginTop: "48px" }}>
             <h2>Eventbezogene Sponsoren</h2>
-            <p>Unterstützer des Stellichter Straßenlaufs 2025.</p>
+            <p>Unterstützer des Stellichter Straßenlaufs 2026.</p>
           </div>
-          <SponsorGrid sponsors={strassenlaufEventSponsors} /> */}
+          <SponsorGrid sponsors={strassenlaufEventSponsors} />
 
           <div className="section-head" style={{ marginTop: "48px" }}>
             <h2>Kontakt & Fragen</h2>

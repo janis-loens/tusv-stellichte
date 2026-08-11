@@ -24,7 +24,6 @@ export default function SponsorGrid({ sponsors }: SponsorGridProps) {
             width={88}
             height={88}
           />
-          <p>{sponsor.name}</p>
         </div>
       ))}
     </div>
