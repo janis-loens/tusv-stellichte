@@ -632,24 +632,25 @@ img {
 
 .sponsor-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 320px));
   gap: 16px;
+  justify-content: start;
 }
 
 .sponsor-card {
   background: var(--card);
   border-radius: 18px;
-  padding: 18px 14px;
+  padding: 12px 10px;
   text-align: center;
   border: 1px solid rgba(11, 60, 135, 0.12);
   box-shadow: 0 8px 20px rgba(15, 24, 36, 0.08);
 }
 
 .sponsor-card img {
-  width: 88px;
-  height: 88px;
+  width: 320px;
+  height: 180px;
   object-fit: contain;
-  margin: 0 auto 10px;
+  margin: 0 auto 8px;
 }
 
 .sponsor-card p {

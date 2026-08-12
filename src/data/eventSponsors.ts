@@ -6,24 +6,9 @@ export type EventSponsor = {
 
 export const eventSponsors: EventSponsor[] = [
   {
-    eventSlug: "strassenlauf-2025",
-    name: "Event Sponsor Platzhalter A",
-    logo: "/images/event-sponsor-1.svg",
-  },
-  {
-    eventSlug: "strassenlauf-2025",
-    name: "Event Sponsor Platzhalter B",
-    logo: "/images/event-sponsor-2.svg",
-  },
-  {
-    eventSlug: "strassenlauf-2025",
-    name: "Event Sponsor Platzhalter C",
-    logo: "/images/event-sponsor-3.svg",
-  },
-  {
-    eventSlug: "strassenlauf-2025",
-    name: "Event Sponsor Platzhalter D",
-    logo: "/images/event-sponsor-1.svg",
+    eventSlug: "strassenlauf-2026",
+    name: "Auto Kühn GmbH",
+    logo: "/images/auto-kuehn-gmbh.jpg",
   },
 ];
 
