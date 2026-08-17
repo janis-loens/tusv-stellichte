@@ -188,6 +188,16 @@ export default function StrassenlaufPage() {
           </div> */}
 
           <div className="section-head" style={{ marginTop: "48px" }}>
+            <h2>Galerie</h2>
+            <p>Impressionen vom Stellichter Straßenlauf 2026.</p>
+          </div>
+          <div className="hero-actions" style={{ marginTop: "24px" }}>
+            <Link href="/strassenlauf/gallerie" className="btn primary">
+              Zur Galerie
+            </Link>
+          </div>
+
+          <div className="section-head" style={{ marginTop: "48px" }}>
             <h2>Eventbezogene Sponsoren</h2>
             <p>Unterstützer des Stellichter Straßenlaufs 2026.</p>
           </div>
