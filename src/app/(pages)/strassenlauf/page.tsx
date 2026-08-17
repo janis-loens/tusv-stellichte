@@ -173,6 +173,7 @@ export default function StrassenlaufPage() {
             </p>
           </div>
 
+          {/*
           <div className="section-head" style={{ marginTop: "48px" }}>
             <h2>Anmeldung</h2>
           </div>
@@ -180,11 +181,11 @@ export default function StrassenlaufPage() {
             Die Online-Anmeldung ist weiterhin möglich. Über den folgenden Link
             gelangen Sie direkt zum Formular.
           </p>
-          <div className="hero-actions" style={{ marginTop: "24px" }}>
+           <div className="hero-actions" style={{ marginTop: "24px" }}>
             <Link href="/strassenlauf/registrierung" className="btn primary">
               Hier geht es zur Anmeldung
             </Link>
-          </div>
+          </div> */}
 
           <div className="section-head" style={{ marginTop: "48px" }}>
             <h2>Eventbezogene Sponsoren</h2>
