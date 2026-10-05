@@ -59,9 +59,6 @@ export default function MitgliedPage() {
             <Link href="/angebot" className="btn primary">
               Angebot entdecken
             </Link>
-            <Link href="/trainingszeiten" className="btn ghost">
-              Trainingszeiten
-            </Link>
           </div>
         </div>
       </section>
